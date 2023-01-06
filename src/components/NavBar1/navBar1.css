@@ -1,0 +1,66 @@
+.navBar1{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+/* Logo  */
+.navBar1 .Logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.navBar1 .Logo h4{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.navBar1 .Logo h4 span{
+    color: #f8bb32;
+}
+.navBar1 .Logo p{
+    font-size: .7rem;
+    font-weight: 400;
+}
+.navBar1 .box__Search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navBar1 .box__Search input{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    /* padding-right: 200px; */
+    width: 400px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+.navBar1 .box__Search i{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #ccc;
+    position: relative;
+    right: 35px;
+}
+.navBar1 .box__Search i:hover{
+    color: black;
+}
+.navBar1 .box__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navBar1 .box__info h4{
+    font-size: 1.4rem;
+}
+.navBar1 .box__info p{
+    font-size: .8rem;
+    color: #ccc;
+}

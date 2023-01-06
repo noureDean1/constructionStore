@@ -1,0 +1,124 @@
+.Side3{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 1rem 11rem;
+    
+}
+.Side3 .Box1__Title{
+    box-shadow: 0px 0px 7px 0px rgb(10 9 9 / 44%);
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #e0a927ec;
+}
+.Side3 .Box2__Products{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 25rem auto;
+    gap: 10px;
+    height: auto;
+}
+
+.Side3 .Box2__Products .Box2__Products_1{
+    box-shadow: 0px 0px 7px 0px rgb(10 9 9 / 44%);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.Side3 .Box2__Products .Box2__Products_1 h4{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+.Side3 .Box2__Products .Box2__Products_1 .box__times{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.Side3 .Box2__Products .Box2__Products_1 .box__times .time1{
+    box-shadow: 0px 0px 7px 0px rgb(10 9 9 / 44%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.Side3 .Box2__Products .Box2__Products_1 .box__times .time1 p{
+    font-size: .9rem;
+    font-weight: bold;
+}
+.Side3 .Box2__Products .Box2__Products_1 .box__times .time1 span{
+    font-size: .7rem;
+    font-weight: bold;
+
+}
+.Side3 .Box2__Products .Box2__Products_1 img{
+    width: 300px;
+}
+.Side3 .Box2__Products .Box2__Products_1 h3{
+    font-size: 1.5rem;
+}
+.Side3 .Box2__Products .Box2__Products_1 .price{
+    color: rgb(183, 19, 19);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.Side3 .Box2__Products .Box2__Products_2{
+    /* box-shadow: 0px 0px 7px 0px rgb(10 9 9 / 44%); */
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Side3 .Box2__Products .Box2__Products_2 a{
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 50px;
+    transition: all .3s ease;
+}
+.Side3 .Box2__Products .Box2__Products_2 a:hover{
+    box-shadow: 0px 0px 7px 0px rgb(10 9 9 / 44%);
+
+}
+.Side3 .Box2__Products .Box2__Products_2 a p{
+    font-size: 1.2rem;
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+.Side3 .Box2__Products .Box2__Products_2 a span{
+    color: rgb(183, 19, 19);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.Side3 .Box2__Products .Box2__Products_2 a img{
+    width: 220px;
+}

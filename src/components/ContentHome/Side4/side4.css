@@ -1,0 +1,73 @@
+.Side4{
+    padding: 1rem 11rem;
+    display: grid;
+    grid-template-columns: 500px auto;
+    gap: 20px;
+}
+
+.Side4 .box1 .box1_conent{
+    position: absolute;
+    z-index: 100;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Side4 .box1 .box1_conent h3{
+    font-size: 1.4rem;
+}
+.Side4 .box1 .box1_conent h3 span{
+    color: #e0a927ec;
+}
+.Side4 .box1 .box1_conent p{
+    font-size: 1rem;
+    color: rgb(96, 96, 96);
+}
+.Side4 .box1 .box1_conent a{
+    color: rgb(183, 19, 19);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.Side4 .box1 .box1_img{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    cursor: pointer;
+
+}
+.Side4 .box2 .box2_conent{
+    position: absolute;
+    z-index: 100;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:550px ;
+    gap: 10px;
+}
+.Side4 .box2 .box2_conent h3{
+    font-size: 1.4rem;
+}
+.Side4 .box2 .box2_conent p {
+    font-size: 1rem;
+    color: rgb(96, 96, 96);
+}
+.Side4 .box2 .box2_conent p span{
+    color: #e0a927ec;   
+}
+.Side4 .box2 .box2_conent a{
+    color: rgb(183, 19, 19);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.Side4 .box2 .box2_img{
+    position: relative;
+    width: 550px;
+    height: 250px;
+    cursor: pointer;
+}

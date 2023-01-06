@@ -1,0 +1,70 @@
+.Side8{
+    margin: 1rem 9rem; 
+    box-shadow: 0px 0px 7px 0px rgb(10 9 9 / 44%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.Side8 .Side8_box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Side8 .Side8_box1 h4{
+    font-size: 1.5rem;
+}
+.Side8 .Side8_box1 p{
+    font-size: .9rem;
+    color: rgb(85, 85, 85);
+}
+.Side8 .Side8_box1  .Side8Box1__input{
+    display: flex;
+    flex-direction: row;
+}
+.Side8 .Side8_box1  .Side8Box1__input input{
+    width: 250px;
+    padding: 10px 10px;
+}
+.Side8 .Side8_box1  .Side8Box1__input button{
+    padding: 7px 10px;
+    border: none;
+    cursor: pointer;
+}
+.Side8 .Side8_box2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Side8 .Side8_box2 h4{
+    font-size: 1.5rem;
+}
+.Side8 .Side8_box2  p{
+    font-size: .9rem;
+    color: rgb(85, 85, 85);
+}
+.Side8  .Side8_box3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.Side8  .Side8_box3 h4{
+    font-size: 1.5rem;
+}
+.Side8  .Side8_box3 .Side8_box3_icon{
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Side8  .Side8_box3 .Side8_box3_icon i{
+    font-size: 2rem;
+    color: black;
+    background-color:#ccc ;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.navBar2{
+    border-top: 1px solid #ccc;
+    padding: 6px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar2 .box__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+}
+.navBar2 .box__links a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(97, 97, 97);
+    padding: 10px 40px;
+}
+.navBar2 .box__links a:hover{
+    color: black;
+}
+.navBar2 .box__links2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navBar2 .box__links2 a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(97, 97, 97);
+    padding: 10px 20px;
+    border-right: 1px solid #ccc;
+}
+.navBar2 .box__links2 a:hover{
+    color: black;
+}
+.navBar2 .box__links2 a.links1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.navBar2 .box__links2 a.links1 .uil-0-plus{
+    color: red;
+    font-weight: bolder;
+}
+.navBar2 .box__links2 a.links2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.navBar2 .box__links2 a.links2 .uil-0-plus{
+    color: red;
+    font-weight: bolder;
+}
+.navBar2 .box__links2 a.links3{
+
+}
